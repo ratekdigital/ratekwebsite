@@ -3,8 +3,15 @@ export function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href="#" aria-label="Ratek home">
-          <span className="logo-mark" aria-hidden="true"><i /><i /><i /></span>
-          <span><strong>RATEK</strong><small>RAPID ACCESS TECHNOLOGY</small></span>
+          <span className="logo-mark" aria-hidden="true">
+            <i />
+            <i />
+            <i />
+          </span>
+          <span>
+            <strong>RATEK</strong>
+            <small>RAPID ACCESS TECHNOLOGY</small>
+          </span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
           <a href="#services">Services</a>
@@ -12,7 +19,9 @@ export function Header() {
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a className="header-cta" href="#contact">Talk to Ratek <span>↗</span></a>
+        <a className="header-cta" href="#contact">
+          Talk to Ratek <span>↗</span>
+        </a>
       </div>
     </header>
   );
