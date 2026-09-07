@@ -1,8 +1,10 @@
+import { RatekLogo } from "./RatekLogo";
+
 export function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-top">
-        <a className="brand brand-footer" href="#" aria-label="Ratek home">
+        {/* <a className="brand brand-footer" href="#" aria-label="Ratek home">
           <span className="logo-mark" aria-hidden="true">
             <i />
             <i />
@@ -12,7 +14,9 @@ export function Footer() {
             <strong>RATEK</strong>
             <small>RAPID ACCESS TECHNOLOGY</small>
           </span>
-        </a>
+        </a> */}
+        <RatekLogo variant="footer" />
+
         <nav aria-label="Footer navigation">
           <a href="#services">Services</a>
           <a href="#solutions">Solutions</a>

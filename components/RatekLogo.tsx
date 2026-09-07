@@ -9,14 +9,14 @@ export function RatekLogo({ variant = "header" }: RatekLogoProps) {
   return (
     <Link
       href="/"
-      className={`ratek-logo ratek-logo-${variant}`}
+      // className={`ratek-logo ratek-logo-${variant}`}
       aria-label="Ratek — Rapid Access Technology"
     >
       <Image
-        src="/images/ratek-logo.png"
+        src="/images/ratek-logo.svg"
         alt="Ratek — Rapid Access Technology"
-        width={180}
-        height={50}
+        width={288}
+        height={80}
         priority={variant === "header"}
       />
     </Link>

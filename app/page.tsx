@@ -129,9 +129,9 @@ export default function Home() {
       <section className="hero section-grid" aria-labelledby="hero-title">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <div className="eyebrow">
+            {/* <div className="eyebrow">
               <span className="eyebrow-mark" /> RAPID ACCESS TECHNOLOGY
-            </div>
+            </div> */}
             <h1 id="hero-title">
               Technology that keeps your business <em>moving.</em>
             </h1>
