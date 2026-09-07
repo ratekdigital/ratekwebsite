@@ -1,0 +1,40 @@
+.network-lines {
+  animation: networkFloat 12s ease-in-out infinite;
+}
+
+.network-node-main {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: nodePulse 3.5s ease-in-out infinite;
+}
+
+@keyframes networkFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes nodePulse {
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .network-lines,
+  .network-node-main {
+    animation: none;
+  }
+}
