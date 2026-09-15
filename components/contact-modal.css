@@ -140,3 +140,40 @@
     max-height: calc(100vh - 28px);
   }
 }
+
+.contact-form-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.contact-form input:disabled,
+.contact-form textarea:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.contact-form-error {
+  margin: 8px 0 0;
+  color: #dc2626;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.contact-success {
+  padding: 24px 0 4px;
+}
+
+.contact-success strong {
+  display: block;
+  color: #059669;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.contact-success p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 24px;
+}
