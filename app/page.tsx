@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Reveal } from "@/components/Reveal";
 import { Footer } from "@/components/Footer";
+import { ContactExperience } from "@/components/contact-experience";
 
 const services = [
   {
@@ -320,7 +321,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer />
+      <ContactExperience />
     </main>
   );
 }
