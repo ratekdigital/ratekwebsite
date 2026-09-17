@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Reveal } from "@/components/Reveal";
 import { Footer } from "@/components/Footer";
+import { ContactExperience } from "@/components/contact-experience";
 
 const services = [
   {
@@ -290,7 +291,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <Footer />
+      <ContactExperience />
     </main>
   );
 }
