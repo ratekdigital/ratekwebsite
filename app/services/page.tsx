@@ -50,7 +50,7 @@ const services = [
   },
   {
     number: "04",
-    title: "Technology & Systems Integration",
+    title: "Technology & Systems Integrations",
     description:
       "Connect, modernize, and simplify the technology your business depends on — without unnecessary complexity.",
     items: [
@@ -61,6 +61,19 @@ const services = [
       "Technical consulting",
     ],
     href: "/services/infrastructure",
+  },
+  {
+    number: "05",
+    title: "AI & Intelligent Automation",
+    description:
+      "Practical AI solutions that reduce manual work and automate business operations.",
+    items: [
+      "Internal Document & Knowledge AI",
+      "Operational Workflow Automation",
+      "Lead Qualification & Support Assistants",
+      "Practical AI Strategy & Tool Integration",
+    ],
+    href: "/services/ai-automation",
   },
 ];
 

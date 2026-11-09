@@ -61,6 +61,19 @@ const services = [
     ],
     href: "#contact",
   },
+  {
+    number: "05",
+    title: "AI & Intelligent Automation",
+    description:
+      "Practical AI solutions that reduce manual work and automate business operations.",
+    items: [
+      "Internal Document & Knowledge AI",
+      "Operational Workflow Automation",
+      "Lead Qualification & Support Assistants",
+      "Practical AI Strategy & Tool Integration",
+    ],
+    href: "/services/ai-automation",
+  },
 ];
 
 const values = [
