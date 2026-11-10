@@ -150,10 +150,9 @@ export default function Home() {
               Technology that keeps your business <em>moving.</em>
             </h1>
             <p className="hero-lead">
-              Ratek provides responsive technical support, custom software
-              development, data solutions, and technology infrastructure for
-              businesses that need reliable technology without unnecessary
-              complexity.
+              Ratek provides technical support, custom software, data solutions,
+              AI automation, and technology infrastructure for businesses that
+              need reliable technology without unnecessary complexity.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#contact">

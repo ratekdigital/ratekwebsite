@@ -121,14 +121,15 @@ export default function ServicesPage() {
           <h1>Technology expertise, where your business needs it.</h1>
           <p>
             Ratek combines technical support, software engineering, data
-            expertise, and systems integration under one responsive technology
-            partner.
+            expertise, systems integration, and practical AI under one
+            responsive technology partner
           </p>
           <div className="services-hero-meta">
             <span>SUPPORT</span>
             <b /> <span>ENGINEERING</span>
             <b /> <span>DATA</span>
             <b /> <span>INFRASTRUCTURE</span>
+            <b /> <span>AI</span>
           </div>
         </div>
       </section>
